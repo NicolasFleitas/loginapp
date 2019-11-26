@@ -22,7 +22,10 @@
       <li class="nav-item" *ngIf="isLogin">
         <a class="nav-link" href="#"(click)="onClickLogout()">Salir</a>
       </li>
-
+      <li class="nav-item" *ngIf="isLogin">
+        <img src="{{fotoUsuario}}" class="rounded-circle">
+        <span class="badge pill bagde-secondary"></span>
+      </li>
     </ul>
 
   </div>
