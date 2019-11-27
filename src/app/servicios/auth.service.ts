@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { AngularFireAuth } from 'angularfire2/auth';
 import * as firebase from 'firebase/app';
 import 'rxjs/add/operator/map';
+import { FirebaseApp } from 'angularfire2';
 
 @Injectable({
   providedIn: 'root'
@@ -43,5 +44,9 @@ export class AuthService {
 
   loginGoogle() {
     return this.afAuth.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
+  }
+
+  loginFacebook() {
+    return this.afAuth.auth.signInWithPopup(new firebase.auth.FacebookAuthProvider());
   }
 }
