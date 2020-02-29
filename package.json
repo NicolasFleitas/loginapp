@@ -21,7 +21,7 @@
     "@angular/router": "~8.2.13",
     "angular2-flash-messages": "^3.0.1",
     "angularfire2": "^5.2.3",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "bootswatch": "^4.3.1",
     "firebase": "^7.5.0",
     "font-awesome": "^4.7.0",
